@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 # Define here the models for your scraped items
 #
 # See documentation in:
@@ -15,4 +14,10 @@ class GovhackItem(scrapy.Item):
     project_name = scrapy.Field()
     team_name    = scrapy.Field()
     prizes       = scrapy.Field()
+    pass
+
+class PizeItem(scrapy.Item):
+    prize_value  = scrapy.Field()
+    prize_name   = scrapy.Field()
+    category     = scrapy.Field()
     pass

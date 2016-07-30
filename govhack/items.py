@@ -15,3 +15,9 @@ class GovhackItem(scrapy.Item):
     team_name    = scrapy.Field()
     prizes       = scrapy.Field()
     pass
+
+class PrizeItem(scrapy.Item):
+    prize_value  = scrapy.Field()
+    prize_name   = scrapy.Field()
+    category     = scrapy.Field()
+    pass
